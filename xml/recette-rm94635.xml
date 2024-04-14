@@ -42,6 +42,67 @@
             <q sys="imperial" u="tasse">1/4</q>
             de cassonade
         </i>
+        <e>
+            Placer la grille au centre du four. Préchauffer le four à
+            <q sys="metrique" u="°C">180</q>
+            <q sys="imperial" u="°F">350</q>
+        </e>
+        <e>
+            Dans une petite casserole, porter tous les ingrédients à ébullition en remuant au fouet. Laisser mijoter à feu moyen 5 minutes. Retirer du feu.
+        </e>
     </partie>
-
+    <partie>
+        <nom>Gâteau</nom>
+        <i>
+            <q sys="metrique" u="g">115</q>
+            <q sys="imperial" u="tasse">3/4</q>
+            de farine tout usage non blanchie
+        </i>
+        <i>
+            <q sys="metrique" u="ml">5</q>
+            <q sys="imperial" u="c. à thé">1</q>
+            de poudre à pâte
+        </i>
+        <i>
+            <q sys="metrique" u="ml">0.5</q>
+            <q sys="imperial" u="c. à thé">1/8</q>
+            de sel
+        </i>
+        <i>
+            <q sys="metrique" u="g">85</q>
+            <q sys="imperial" u="c. à soupe">6</q>
+            de sucre
+        </i>
+        <i>
+            <q sys="metrique" u="ml">60</q>
+            <q sys="imperial" u="tasse">1/4</q>
+            d'huile de canola
+        </i>
+        <i>
+            <q sys="metrique" u="ml">2.5</q>
+            <q sys="imperial" u="c à thé">1/2</q>
+            d'extrait de vanille
+        </i>
+        <i>
+            <q>1</q> 
+            oeuf
+        </i>
+        <i>
+            <q sys="metrique" u="ml">90</q>
+            <q sys="imperial" u="c. à soupe">6</q>
+            de lait
+        </i>
+        <e>
+            Dans un bol, mélanger la farine, la poudre à pâte et le sel.
+        </e>
+        <e>
+            Dans un autre bol, fouetter le sucre, l’huile, la vanille et l’œuf au batteur électrique. À basse vitesse, incorporer les ingrédients secs en alternant avec le lait. Répartir la pâte dans un plat de cuisson carré de 
+            <q sys="metrique" u="cm">20</q>
+            <q sys="imperial" u="po">8</q>
+            . Verser la sauce délicatement sur la pâte.
+        </e>
+        <e>
+            Cuire au four 25 minutes ou jusqu’à ce qu’un cure-dents inséré au centre du gâteau en ressorte propre. Laisser tiédir sur une grille.   
+        </e>
+    </partie>
 </recette>
