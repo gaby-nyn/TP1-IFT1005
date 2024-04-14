@@ -1,0 +1,47 @@
+<recette userid="rm94635">
+    <nom>Pouding chômeur à l'érable</nom>
+    <categorie>dessert</categorie>
+    <image url="https://images.ricardocuisine.com/services/recipes/992x1340_8894.jpg"/>
+    <auteur>Gaby Nguyen</auteur>
+    <licence>CC-BY-NC</licence>
+    <source url="https://www.ricardocuisine.com/recettes/8894-pouding-chomeur-a-l-erable">Ricardo</source>
+    <extra>
+        <nom>Portions</nom>
+        <val>1</val>
+    </extra>
+    <extra>
+        <nom>Préparation</nom>
+        <val>1</val>
+    </extra>
+    <extra>
+        <nom>Cuisson</nom>
+        <val>35 min</val>
+    </extra>
+    <extra>
+        <nom>Rendement</nom>
+        <val>8 portions</val>
+    </extra>
+    <description>
+        Le pouding chômeur, est un dessert traditionnel québécois et acadien datant de la crise économique de 1929. Il est encore très populaire aujourd'hui et cette recette vous permettra de combler vos envies d'érable.
+    </description>
+    <partie>
+        <nom>Sauce</nom>
+        <index>Sauce de pouding</index>
+        <i>
+            <q sys="metrique" u="ml">310</q>
+            <q sys="imperial" u="tasse">1 1/4</q>
+            de crème 35 %
+        </i>
+        <i>
+            <q sys="metrique" u="ml">250</q>
+            <q sys="imperial" u="tasse">1</q>
+            de sirop d'érable
+        </i>
+        <i>
+            <q sys="metrique" u="ml">55</q>
+            <q sys="imperial" u="tasse">1/4</q>
+            de cassonade
+        </i>
+    </partie>
+
+</recette>
