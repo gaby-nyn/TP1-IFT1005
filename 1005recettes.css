@@ -6,3 +6,35 @@
     font-variation-settings:
     "wdth" 100;
 }
+
+* {
+    background-color: #F9F8EB;
+}
+
+header {
+    height: 125px;
+}
+
+
+.system-buttons {
+    margin-left: 15;
+    float: right;
+}
+
+.system-buttons button {
+    background-color: #F9E4BC;
+    border: none;
+    padding: 16px 32px;
+    font-weight: bold;
+}
+
+.system-buttons button:hover {
+    background-color: #e5cb9c;
+    border: none;
+    padding: 16px 32px;
+    font-weight: bold;
+}
+
+.recette-boite {
+    background-color: antiquewhite;
+}

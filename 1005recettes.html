@@ -9,15 +9,20 @@
         <link href="1005recettes.css" rel="stylesheet">
         <script src="1005recettes.js"></script>
     </head>
-    <div class="open-sans-general">
-        <h1>1005 recettes</h1>
-        <div class="boutonSysteme">
-            <button onclick="unites('metrique')">Metrique</button>
-            <button onclick="unites('imperial')">Imperial</button>
+    <body>
+        <div class="open-sans-general">
+            <header>
+                <h1>1005 recettes</h1>
+                <div class="system-buttons">
+                    <button onclick="unites('metrique')">Metrique</button>
+                    <button onclick="unites('imperial')">Imperial</button>
+                </div>
+            </header>
+                <div id="recettes">
+                    <script>init("config1005.json");</script>
+                    <article xmlns:str="http://xslsl.org/string" class="recette-boite" id="REC-rm94635">
+                    </article>
+                </div>
         </div>
-        <div id="recettes">
-            <script>init("config1005.json");</script>
-            <article xmlns:str="http://xslsl.org/string" class="recetteBoite" id="rm94635"></article>
-        </div>
-    </div>
+    </body>
 </html>
