@@ -16,7 +16,6 @@
                     <xsl:otherwise><img class="nophoto" src="icons/restaurant-plate-svgrepo-com.svg"/></xsl:otherwise>
                 </xsl:choose>
             </div>
-
             <div>
                 Categories
                 <ul class="categories">
