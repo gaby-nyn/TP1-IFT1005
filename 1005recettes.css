@@ -1,3 +1,4 @@
+/* Font pour page */
 .open-sans-general {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -8,13 +9,21 @@
 }
 
 * {
-    background-color: #F9F8EB;
+    background-color: #41436A;
 }
 
 header {
     height: 125px;
 }
 
+ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+li {
+    margin-left: 50px;
+}
 
 .system-buttons {
     margin-left: 15;
@@ -22,19 +31,99 @@ header {
 }
 
 .system-buttons button {
-    background-color: #F9E4BC;
+    background-color: #FE9677;
     border: none;
     padding: 16px 32px;
     font-weight: bold;
 }
 
 .system-buttons button:hover {
-    background-color: #e5cb9c;
+    background-color: #fa805b;
     border: none;
     padding: 16px 32px;
     font-weight: bold;
 }
 
 .recette-boite {
-    background-color: antiquewhite;
+    background-color: #984063;
+    padding: 16px;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
 }
+.titre {
+    background-color: #f64668;
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.photo * {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+img {
+    width: 300px;
+}
+
+.description, .description * {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-left: 10px;
+    background-color: #FE9677;
+}
+
+.informations, .informations * {
+    grid-column-start:1 ;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-left: 10px;
+    background-color: #ffb997;
+}
+
+.partiesRegroupees {
+    padding-bottom: 35px;
+}
+
+.partiesRegroupees, .partiesRegroupees * {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-left: 10px;
+    background-color: #f67e7d;
+}
+
+.partiesRegroupees h2 {
+    text-align: center;
+}
+
+/************* pas de  visibilite  pour les  index **********/
+.index {  display: none; }
+
+/*****  unites  visibles  avec  la  classe  uniteVisible ****/
+.quantite { 
+    font-weight: bold; 
+}
+.quantite.invisible  { display:none; }
+
+/**  pour  les  boutons  **/
+.choixSysteme  {
+    position: fixed;
+    top:0;
+    right:0;
+    padding:15px;
+    margin:15px;
+}
+.choixSysteme button { background-color: yellow; padding:10px; }

@@ -8,16 +8,20 @@
 
 <xsl:template match="/recette">
     <article class="recette-boite" id="REC-{@userid}">
-        <h1 class="titre"><xsl:value-of select="nom"/></h1>
-        <div class="informations">
-            <div class="photo">
-                <xsl:choose>
-                    <xsl:when test="image"><img src="{image/@url}" alt="{nom}"/></xsl:when>
-                    <xsl:otherwise><img class="nophoto" src="icons/restaurant-plate-svgrepo-com.svg"/></xsl:otherwise>
-                </xsl:choose>
-            </div>
+        <h2 class="titre"><xsl:value-of select="nom"/></h2>
+        <div class="photo">
+            <xsl:choose>
+                <xsl:when test="image"><img src="{image/@url}" alt="{nom}"/></xsl:when>
+                <xsl:otherwise><img class="nophoto" src="icons/restaurant-plate-svgrepo-com.svg"/></xsl:otherwise>
+            </xsl:choose>
+        </div>
+        <div class="description">
+            <h3>Description</h3>
+            <p><xsl:value-of select="description"/></p>
+        </div>
+        <div class="informations"> 
             <div>
-                Categories
+                <h3>Categories</h3>
                 <ul class="categories">
                     <xsl:for-each select="categorie">
                         <li><xsl:value-of select="."/></li>
@@ -26,7 +30,7 @@
             </div>
 
             <div>
-                Sources
+                <h3>Sources</h3>
                 <dl class="sources">
                     <dt>Auteur</dt><dd><xsl:value-of select="auteur"/></dd>
                     <dt>Licence</dt><dd><xsl:value-of select="licence"/></dd>
@@ -35,7 +39,7 @@
             </div>
 
             <div>
-                Informations
+                <h3>Informations</h3>
                 <dl class="extra">
                     <xsl:for-each select="extra">
                         <dt><xsl:value-of select="nom"/></dt>
@@ -45,18 +49,14 @@
             </div>
         </div>
 
-        <p class="description"><xsl:value-of select="description"/></p>
-
         <!--                             -->
         <!-- par ingredients et etapes -->
         <!--                             -->
-        <h1>Ingrédients et étapes incluant les parties</h1>
-
         <div class="partiesRegroupees">
-
+            <h2>Ingrédients et étapes incluant les parties</h2>
             <!-- ingredients avec toutes les parties dedans -->
             <div class="ingredients">
-                <h2>Ingrédients</h2>
+                <h3>Ingrédients</h3>
                 <xsl:for-each select="partie">
                     <xsl:if test="i">
                         <xsl:if test="nom">
@@ -69,7 +69,7 @@
 
             <!-- etapes avec toutes les parties dedans -->
             <div class="etapes">
-                <h2>Préparation</h2>
+                <h3>Préparation</h3>
                 <xsl:for-each select="partie">
                     <xsl:if test="e">
                         <xsl:if test="nom">

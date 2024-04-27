@@ -10,7 +10,6 @@ function html(parent,nom,classe,text) {
 // retourne le texte  d'un  noeud  XML
 function text(node)  { return node.childNodes[0].nodeValue; }
 
-
 function xmlRecette2HTML(parent,xml) {
     console.log("process XML",xml);
     let e=document.createElement("div");
@@ -149,7 +148,6 @@ function getXML(url) {
     );
 }
 
-
 function applyXSL(parent,xsl,xml)  {
     if( xsl!=null && xml!=null )  {
 	    if (document.implementation && document.implementation.createDocument) {
@@ -200,7 +198,6 @@ async function init(configURL)  {
 
     // init les unites a metrique
     unites("metrique");  //  ou "imperial"
-
 }
 
 /****** pour les unites *******/
